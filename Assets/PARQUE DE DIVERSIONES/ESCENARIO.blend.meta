@@ -7,18 +7,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Blue001
+    second: {fileID: 2100000, guid: 8c8b5bc688930cf4e93e4446b9af84d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Blue002
-    second: {fileID: 2100000, guid: bfd2470bf7d3d024a86526bd8361e52c, type: 2}
+    second: {fileID: 2100000, guid: 3caf1ba4933ef194c846955039b547ca, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cloud
-    second: {fileID: 2100000, guid: f5ed06bcbbf1b4440842d53bfb1caf2b, type: 2}
+    second: {fileID: 2100000, guid: da7489322cbbf6c4e8d609f03815e50b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Green
-    second: {fileID: 2100000, guid: e90977125e972554484376bb6912adf5, type: 2}
+    second: {fileID: 2100000, guid: a3f692da5876a364185b25d9a4a626e0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -28,12 +33,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: METAL
-    second: {fileID: 2100000, guid: 57aec0b2ba86fdb41b32c501513847d1, type: 2}
+    second: {fileID: 2100000, guid: 27648df9365f0ac45bb6a24008e4cb6a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: METAL2
-    second: {fileID: 2100000, guid: fa63306d53efbbd48a812474d3a6d00b, type: 2}
+    second: {fileID: 2100000, guid: 7b204f050cdee3948b9d47c3465f8ee7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -212,7 +217,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -225,12 +230,12 @@ ModelImporter:
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
-    secondaryUVMarginMethod: 1
+    secondaryUVMarginMethod: 0
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
-    secondaryUVPackMargin: 4
+    secondaryUVPackMargin: 12
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
